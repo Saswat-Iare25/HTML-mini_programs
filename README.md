@@ -1,16 +1,16 @@
 # Enquiry Form (Mini Web Project)
 
-This project is a **simple enquiry form webpage** built using basic **HTML**, **CSS**, and a bit of **JavaScript** for client-side validation.  
-It is designed to demonstrate form handling, styling, and basic validation logic.
+This project is a simple enquiry form webpage built using basic **HTML**, **CSS**, and a bit of **JavaScript**.
+It is designed to show form handling, styling, and basic validation logic.
 
-## 📁 Project Structure
+## Project Structure
 
 ========
 ├── Miniprog.html   # Main HTML file containing the enquiry form
 └── mini.css        # External stylesheet for page styling
 =========
 
-## 🌐 Preview
+## Preview
 
 The page displays an **Enquiry Form** where users can enter details like:
 - Name  
@@ -28,7 +28,7 @@ Each section is neatly formatted inside a centered table.
 
 ---
 
-## 🎨 Styling (mini.css)
+## Styling (mini.css)
 
 The `mini.css` file provides:
 - A **dark navy blue background** for the page  
@@ -40,7 +40,7 @@ The `mini.css` file provides:
 
 ---
 
-## ⚙️ Functionality (JavaScript)
+## Functionality (JavaScript)
 
 The page includes a basic JavaScript validation:
 - Checks if the **SName (student name)** field is empty.
@@ -48,7 +48,7 @@ The page includes a basic JavaScript validation:
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. Open the `Miniprog.html` file in your browser.
 2. Fill in the form fields.
@@ -58,7 +58,7 @@ The page includes a basic JavaScript validation:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone or download this repository:
    ```bash
@@ -68,7 +68,7 @@ The page includes a basic JavaScript validation:
 3. Ensure both `Miniprog.html` and `mini.css` are in the same directory.
 4. Open `Miniprog.html` in your browser to view the webpage.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **HTML5** – Structure and content  
 - **CSS3** – Styling and layout  
@@ -81,8 +81,9 @@ This project is open-source and available under the **MIT License**.
 
 
 
-## 👨‍💻 Author
+## Author
 
 **Saswat**  
 💬 Beginner web developer exploring HTML, CSS, and JavaScript.  
 📧 Contact: (saswat.iare25@gmail.com)
+
