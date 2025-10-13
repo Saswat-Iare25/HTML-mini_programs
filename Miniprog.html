@@ -1,0 +1,100 @@
+<HTML>
+    <head>
+        <LINK rel="stylesheet" type="text/css" href="mini.css">
+
+    </head>
+	<BODY>
+	<H1> <CENTER> Enquiry Form </CENTER> </H1>
+	<table align="center" border="1" style="border-collapse:collapse;">
+			<FORM name="enquiryForm" method="POST" action="./enquiryServlet" onSubmit="return validateForm()">
+				<tr>
+					<th> SName </th>	
+					<td> <input type="text" name="sname" size="15" maxlength="10" placeholder="Alex"/> <span id="snameErr"></span></td>
+				</tr>
+				<tr>
+					<th> Email 	</th> 
+					<td><input type="text" name="email" placeholder="user@gmail.com" /> </td>
+				</tr>
+				<tr> 
+					<th> Password </th> 
+					<td><input type="password" name="pass" /> </td>
+				</tr>
+				<tr>
+					<th> Mobile </th>	
+					<td> <input type="text" name="mobile" placeholder="1234506789" /> </td>
+				</tr>
+				<tr>
+					<th> Upload Resume	</th> 
+					<td> <input type="file" name="file" /> </td>
+				</tr>
+				<tr>
+					<th> Courses	</th> 
+					<td> <SELECT name="courses" size="5" MULTIPLE>
+						<OPTION value="CJ">Core Java</OPTION>
+						<OPTION value="AJ">Adv Java</OPTION>
+						<OPTION value="Hibernate">Hibernate</OPTION>
+						<OPTION value="Spring">Spring</OPTION>
+						<OPTION value="MEAN">MEAN</OPTION>
+						<OPTION value="Angular">Angular</OPTION>
+						<OPTION value="Android">Android</OPTION>
+						<OPTION value="Oracle">Oracle</OPTION>
+					   </SELECT> 
+				   </td>
+				</tr>
+				<tr>
+					<th> Track:  </th> 
+					<td> Normal Track <INPUT type="radio" name="track" value="NT"/> Fast Track <INPUT type="radio" name="track" value="FT"/> </td> 
+				</tr>
+				<tr>
+					<th> Workshop </th> 
+					<td> <INPUT type="radio" name="track" value="WS"/> </td>
+				</tr>
+				<tr>
+					<th> Qual:	</th> 
+					<td> BTech <INPUT type="checkbox" name="qual" value="BTech"/> MTech <INPUT type="checkbox" name="qual" value="MTech"/> BSc <INPUT type="checkbox" name="qual" value="BSc"/> MSc <INPUT type="checkbox" name="qual" value="MSc"/> </td>
+				</tr>
+				<tr>
+					<th> Occupation: </th> 
+					<td> <SELECT name="occupation" size="1">
+							<OPTION value="Student">Student</OPTION>
+							<OPTION value="Employee">Employee</OPTION>
+						   </SELECT> </td>
+				</tr>
+				<tr>
+					<th> Address	  </th>  
+					<td> <TEXTAREA name="address" rows="10" cols="20"></TEXTAREA> </td>
+				</tr>
+				<tr>
+					<th> <input type="submit" name="submit" value="Submit Enquiry"/> </th>
+					<th> <input type="reset" name="reset" value="Clear Form"/> </th>
+				</tr>	   
+			</FORM>
+		</table>
+	</BODY>
+	<HEAD>
+		<TITLE>HTML Form Example</TITLE>
+		<SCRIPT language="JavaScript" type="text/javascript">
+			var err="";
+			var flag=false;
+			function validateForm() {
+			
+				var sname=window.document.enquiryForm.sname;
+				var snameErr=window.document.getElementById("snameErr");
+				var snameVal=sname.value;
+				
+				if(snameVal.length==0) {
+					err+="SName field is empty";
+					snameErr.innerHTML="<font color='red'>SName is empty</font>";
+				}
+				
+				if(err.length==0) {
+					flag=true;
+				} else {
+					window.alert(err);
+				}
+				return flag;
+			}
+		</SCRIPT>
+	</HEAD>	
+</HTML>
+
