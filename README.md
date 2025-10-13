@@ -5,10 +5,9 @@ It is designed to show form handling, styling, and basic validation logic.
 
 ## Project Structure
 
-========
-├── Miniprog.html   # Main HTML file containing the enquiry form
-└── mini.css        # External stylesheet for page styling
-=========
+
+Miniprog.html   # Main HTML file containing the enquiry form
+mini.css        # External stylesheet for page styling
 
 ## Preview
 
@@ -86,4 +85,5 @@ This project is open-source and available under the **MIT License**.
 **Saswat**  
 💬 Beginner web developer exploring HTML, CSS, and JavaScript.  
 📧 Contact: (saswat.iare25@gmail.com)
+
 
